@@ -20,35 +20,38 @@ public class tree extends AppCompatActivity {
         TextView textView=findViewById(R.id.textViewTree);
 
         Intent intent=getIntent();
-        double percent=intent.getDoubleExtra("percent",-1);
+        int cnt=intent.getIntExtra("cnt",0);
+        double percent=(double)cnt/124*100;
+
+        String strCnt = String.format("%.2f", percent);
 
         if(0<=percent&&percent<20){
             imageView.setImageResource(R.drawable.tree1);
-            textView.setText("나무 1단계 성장 \n*읽은분량: "+percent);
+            textView.setText("나무 1단계 성장 \n*읽은분량: "+strCnt);
         }
         else if(20<=percent&&percent<40){
             imageView.setImageResource(R.drawable.tree2);
-            textView.setText("나무 2단계 성장 \n*읽은분량: "+percent);
+            textView.setText("나무 2단계 성장 \n*읽은분량: "+strCnt);
 
         }
         else if(40<=percent&&percent<60){
             imageView.setImageResource(R.drawable.tree3);
-            textView.setText("나무 3단계 성장 \n*읽은분량: "+percent);
+            textView.setText("나무 3단계 성장 \n*읽은분량: "+strCnt);
 
         }
         else if(60<=percent&&percent<80){
             imageView.setImageResource(R.drawable.tree4);
-            textView.setText("나무 4단계 성장 \n*읽은분량: "+percent);
+            textView.setText("나무 4단계 성장 \n*읽은분량: "+strCnt);
 
         }
         else if(80<=percent&&percent<100){
             imageView.setImageResource(R.drawable.tree5);
-            textView.setText("나무 5단계 성장 \n*읽은분량: "+percent);
+            textView.setText("나무 5단계 성장 \n*읽은분량: "+strCnt);
 
         }
         else if(percent==100){
             imageView.setImageResource(R.drawable.end);
-            textView.setText("나무 최종 성장 \n*읽은분량: "+percent);
+            textView.setText("나무 최종 성장 \n*읽은분량: "+strCnt);
 
         }
     }

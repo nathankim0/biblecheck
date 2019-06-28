@@ -34,6 +34,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
                 android:text="창1" />
 
@@ -42,6 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
                 android:text="마1" />
 
@@ -50,6 +52,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="스1" />
@@ -59,6 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="행1" />
@@ -79,6 +83,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="창2" />
@@ -88,6 +93,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="마2" />
@@ -97,6 +103,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="스2" />
@@ -106,6 +113,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="행2" />
@@ -127,6 +135,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="창3" />
@@ -136,6 +145,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="마3" />
@@ -145,6 +155,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="스3" />
@@ -154,6 +165,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="행3" />
@@ -175,6 +187,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="창4" />
@@ -184,6 +197,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="마4" />
@@ -193,6 +207,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="스4" />
@@ -202,6 +217,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="행4" />
@@ -222,6 +238,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="창5" />
@@ -231,6 +248,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="마5" />
@@ -240,6 +258,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="스5" />
@@ -249,6 +268,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="행5" />
@@ -269,6 +289,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
                 android:text="창6" />
@@ -278,27 +299,30 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마6" />
 
             <Switch
                 android:id="@+id/switch23"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="스6" />
 
             <Switch
                 android:id="@+id/switch24"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행6" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -316,36 +340,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창7" />
 
             <Switch
                 android:id="@+id/switch26"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마7" />
 
             <Switch
                 android:id="@+id/switch27"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="스7" />
 
             <Switch
                 android:id="@+id/switch28"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행7" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -363,36 +391,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창8" />
 
             <Switch
                 android:id="@+id/switch30"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마8" />
 
             <Switch
                 android:id="@+id/switch31"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="스8" />
 
             <Switch
                 android:id="@+id/switch32"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행8" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -410,36 +442,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창9,10" />
 
             <Switch
                 android:id="@+id/switch34"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마9" />
 
             <Switch
                 android:id="@+id/switch35"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="스9" />
 
             <Switch
                 android:id="@+id/switch36"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행9" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -457,36 +493,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창11" />
 
             <Switch
                 android:id="@+id/switch38"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마10" />
 
             <Switch
                 android:id="@+id/switch39"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="스10" />
 
             <Switch
                 android:id="@+id/switch40"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행10" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -504,36 +544,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창12" />
 
             <Switch
                 android:id="@+id/switch42"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마11" />
 
             <Switch
                 android:id="@+id/switch43"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="느1" />
 
             <Switch
                 android:id="@+id/switch44"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행11" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -551,36 +595,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창13" />
 
             <Switch
                 android:id="@+id/switch46"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마12" />
 
             <Switch
                 android:id="@+id/switch47"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="느2" />
 
             <Switch
                 android:id="@+id/switch48"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행12" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -598,36 +646,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창14" />
 
             <Switch
                 android:id="@+id/switch50"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마13" />
 
             <Switch
                 android:id="@+id/switch51"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="느3" />
 
             <Switch
                 android:id="@+id/switch52"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행13" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -645,36 +697,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창15" />
 
             <Switch
                 android:id="@+id/switch54"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마14" />
 
             <Switch
                 android:id="@+id/switch55"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="느4" />
 
             <Switch
                 android:id="@+id/switch56"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행14" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -692,36 +748,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창16" />
 
             <Switch
                 android:id="@+id/switch58"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마15" />
 
             <Switch
                 android:id="@+id/switch59"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="느5" />
 
             <Switch
                 android:id="@+id/switch60"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행15" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -739,36 +799,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창17" />
 
             <Switch
                 android:id="@+id/switch62"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마16" />
 
             <Switch
                 android:id="@+id/switch63"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="느6" />
 
             <Switch
                 android:id="@+id/switch64"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행16" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -786,36 +850,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창18" />
 
             <Switch
                 android:id="@+id/switch66"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마17" />
 
             <Switch
                 android:id="@+id/switch67"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="느7" />
 
             <Switch
                 android:id="@+id/switch68"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행17" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -833,36 +901,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창19" />
 
             <Switch
                 android:id="@+id/switch70"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마18" />
 
             <Switch
                 android:id="@+id/switch71"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="느8" />
 
             <Switch
                 android:id="@+id/switch72"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행18" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -880,36 +952,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창20" />
 
             <Switch
                 android:id="@+id/switch74"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마19" />
 
             <Switch
                 android:id="@+id/switch75"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="느9" />
 
             <Switch
                 android:id="@+id/switch76"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행19" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -927,36 +1003,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창21" />
 
             <Switch
                 android:id="@+id/switch78"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마20" />
 
             <Switch
                 android:id="@+id/switch79"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="느10" />
 
             <Switch
                 android:id="@+id/switch80"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행20" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -974,36 +1054,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창22" />
 
             <Switch
                 android:id="@+id/switch82"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마21" />
 
             <Switch
                 android:id="@+id/switch83"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="느11" />
 
             <Switch
                 android:id="@+id/switch84"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행21" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -1021,36 +1105,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창23" />
 
             <Switch
                 android:id="@+id/switch86"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마22" />
 
             <Switch
                 android:id="@+id/switch87"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="느12" />
 
             <Switch
                 android:id="@+id/switch88"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행22" />
         </LinearLayout><LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -1069,7 +1157,7 @@
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
 
-            android:text="창3" />
+            android:text="창24" />
 
         <Switch
             android:id="@+id/switch90"
@@ -1078,7 +1166,7 @@
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
 
-            android:text="마3" />
+            android:text="마23" />
 
         <Switch
             android:id="@+id/switch91"
@@ -1087,7 +1175,7 @@
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
 
-            android:text="스3" />
+            android:text="느13" />
 
         <Switch
             android:id="@+id/switch92"
@@ -1096,7 +1184,7 @@
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
 
-            android:text="행3" />
+            android:text="행23" />
     </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -1114,36 +1202,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창25" />
 
             <Switch
                 android:id="@+id/switch94"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마24" />
 
             <Switch
                 android:id="@+id/switch95"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="에1" />
 
             <Switch
                 android:id="@+id/switch96"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행24" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -1161,36 +1253,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창26" />
 
             <Switch
                 android:id="@+id/switch98"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마25" />
 
             <Switch
                 android:id="@+id/switch99"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="에2" />
 
             <Switch
                 android:id="@+id/switch100"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행25" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -1208,36 +1304,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창27" />
 
             <Switch
                 android:id="@+id/switch102"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마26" />
 
             <Switch
                 android:id="@+id/switch103"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="에3" />
 
             <Switch
                 android:id="@+id/switch104"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행26" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -1255,36 +1355,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창28" />
 
             <Switch
                 android:id="@+id/switch106"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마27" />
 
             <Switch
                 android:id="@+id/switch107"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="에4" />
 
             <Switch
                 android:id="@+id/switch108"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행27" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -1302,36 +1406,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창29" />
 
             <Switch
                 android:id="@+id/switch110"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="마28" />
 
             <Switch
                 android:id="@+id/switch111"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="에5" />
 
             <Switch
                 android:id="@+id/switch112"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="행28" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -1349,36 +1457,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창30" />
 
             <Switch
                 android:id="@+id/switch114"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="막1" />
 
             <Switch
                 android:id="@+id/switch115"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="에6" />
 
             <Switch
                 android:id="@+id/switch116"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="롬1" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -1396,36 +1508,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창31" />
 
             <Switch
                 android:id="@+id/switch118"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="막2" />
 
             <Switch
                 android:id="@+id/switch119"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="에7" />
 
             <Switch
                 android:id="@+id/switch120"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="롬2" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -1443,36 +1559,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="창3" />
+                android:text="창32" />
 
             <Switch
                 android:id="@+id/switch122"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="마3" />
+                android:text="막3" />
 
             <Switch
                 android:id="@+id/switch123"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="스3" />
+                android:text="에8" />
 
             <Switch
                 android:id="@+id/switch124"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
 
-                android:text="행3" />
+                android:text="롬3" />
         </LinearLayout>
         <TextView
             android:id="@+id/textView4"

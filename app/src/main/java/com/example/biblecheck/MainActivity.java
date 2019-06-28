@@ -19,8 +19,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private Switch[] sw = new Switch[125];
+    TextView textView;
     private Boolean a;
     private int cnt;
+    String strCnt;
     SharedPreferences pref;
     SharedPreferences.Editor ed;
     @Override
@@ -41,9 +43,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //텍스트뷰
-        final TextView textView= findViewById(R.id.textView4);
+        textView= findViewById(R.id.textView4);
         //읽은분량 바로 변경
-        textView.setText("이번 달 "+(double)cnt/124*100+"% 읽으셨습니다.");
+        strCnt = String.format("%.2f", (double)cnt/124*100);
+        textView.setText("이번 달 "+strCnt+"% 읽으셨습니다.");
 
         //스위치뷰 리스너
         Switch.OnCheckedChangeListener OnCheckedChangeListener = new Switch.OnCheckedChangeListener() {
@@ -55,7 +58,8 @@ public class MainActivity extends AppCompatActivity {
                 else{ //off시, cnt 감소
                     cnt--;
                 }
-                textView.setText("이번 달 "+(double)cnt/124*100+"% 읽으셨습니다.");
+                strCnt = String.format("%.2f", (double)cnt/124*100);
+                textView.setText("이번 달 "+strCnt+"% 읽으셨습니다.");
                 //값저장
                 ed.putInt( "savedCnt" , cnt);
                 for(int i=1;i<=124;i++) {
@@ -72,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onClick(View view){
         Intent intent=new Intent(MainActivity.this,tree.class);
-        intent.putExtra("percent",(double)cnt/124*100);
+        intent.putExtra("cnt",cnt);
         startActivity(intent);
     }
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -81,9 +85,29 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
     public boolean onOptionsItemSelected(MenuItem item){
-            ed.clear();		//전체데이터 삭제
-            ed.commit();
-            finish();
-            return true;
+        switch(item.getItemId()){
+            case R.id.clear:
+                for(int i=1;i<=124;i++){
+                    sw[i].setChecked(false);
+                    ed.putBoolean("state"+i,sw[i].isChecked());
+                }
+                ed.putInt( "savedCnt" , cnt);
+                ed.commit();
+                strCnt = String.format("%.2f", (double)cnt/124*100);
+                textView.setText("이번 달 "+strCnt+"% 읽으셨습니다.");
+                return true;
+            case R.id.all_check:
+                for(int i=1;i<=124;i++){
+                    sw[i].setChecked(true);
+                    ed.putBoolean("state"+i,sw[i].isChecked());
+                }
+                ed.putInt( "savedCnt" , cnt);
+                ed.commit();
+                strCnt = String.format("%.2f", (double)cnt/124*100);
+                textView.setText("이번 달 "+strCnt+"% 읽으셨습니다.");
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }
